@@ -36,9 +36,6 @@
 
     <actions>
         <action class="com.lypeer.matchmaker.Matchmaker" id="com.lypeer.matchmaker" text="Make match" description="Plugin to easy your work on Wechat Weapp . This can help you inject functions to js file .">
-            <keyboard-shortcut
-                    keymap="$default"
-                    first-keystroke="shift control M"/>
             <add-to-group group-id="GenerateGroup"/>
         </action>
     </actions>
