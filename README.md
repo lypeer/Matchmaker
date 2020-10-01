@@ -26,8 +26,7 @@
 
 # 开源协议
 
-ENGLISH TRANSLATION OF THE ABOVE TEXT IS GIVEN BELOW:
-This is a plugin developed specifically for WeChat applets and is currently available for use in IntelliJ IDEA. It can help you complete the process of repeating the boring and cumbersome mechanical binding methods, and automatically inject the new methods you need into the js file.
+ENGLISH TRANSLATION OF THE ABOVE TEXT : This is a plugin developed specifically for WeChat applets and is currently available for use in IntelliJ IDEA. It can help you complete the process of repeating the boring and cumbersome mechanical binding methods, and automatically inject the new methods you need into the js file.
 
 **PS: In fact, my original purpose is to make a plug-in that can be used in WebStorm, but I did not expect that after making it, there is no way to use it in WebStorm, only to use it in IntelliJ IDEA, if any of my buddies know how to do it, please tell me, thank you very much. **
 
