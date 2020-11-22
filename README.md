@@ -26,6 +26,32 @@
 
 # 开源协议
 
+ENGLISH TRANSLATION OF THE ABOVE TEXT : This is a plugin developed specifically for WeChat applets and is currently available for use in IntelliJ IDEA. It can help you complete the process of repeating the boring and cumbersome mechanical binding methods, and automatically inject the new methods you need into the js file.
+
+**PS: In fact, my original purpose is to make a plug-in that can be used in WebStorm, but I did not expect that after making it, there is no way to use it in WebStorm, only to use it in IntelliJ IDEA, if any of my buddies know how to do it, please tell me, thank you very much. **
+
+# GIF display
+
+Here's how the plug-in looks in IntelliJ IDEA
+
+! [Presentation in IntelliJ IDEA](https://raw.githubusercontent.com/lypeer/Matchmaker/master/gif/plugin.gif)
+
+# Loading plug-ins
+
+I don't know why, but after I uploaded the plugin to the JetBrains Plugins Repository, it's been in the Wait for approve stage until now, which means you have to download the jar package and load the local plugin **[jar package here]( https://github.com/lypeer/Matchmaker/blob/master/Matchmaker.jar?raw=true). **
+
+# Role
+
+As we all know, when developing a WeChat applet, if there is an event response between *wxml* and *js*, you have to bind a method to *wxml* with the `bind**/catch***` tag, and then write the methods defined in *wxml* inside *js* one by one.
+
+This process of writing empty methods is actually pretty boring, just like the *findViewById* in *Android*. Imagine how awkward it would be to write if a more complex page had a dozen or even dozens of bound methods. This plugin is designed to inject the methods declared in *wxml* directly into *js*, generating the code automatically so that we can spend our time and energy on more technical things.
+
+# Usage
+
+It's very easy to use, just right click on the JS code and Generate -> Match make. Of course you can set a shortcut for this function to make it more convenient.
+
+# Open source protocol
+
 ```java
   Copyright 2014-2016 lypeer.
 
